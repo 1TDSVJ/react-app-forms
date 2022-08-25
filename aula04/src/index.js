@@ -1,6 +1,13 @@
-import React from 'react';
+import React from "react"
 import ReactDOM from 'react-dom/client';
-import './index.css';
 
-ReactDOM.createRoot("CONTEUDO",document.getElementById('root'));
+import App from './App'
+import {BrowserRouter} from 'react-router-dom'
+
+ReactDOM.render(
+  <BrowserRouter>
+  <App/>
+  </BrowserRouter>
+,document.getElementById("root"))
+
 
