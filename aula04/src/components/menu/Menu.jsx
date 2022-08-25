@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import MinhasRotas from '../../routes/MinhasRotas';
+
 
 
 export default function Menu() {
@@ -15,7 +15,7 @@ export default function Menu() {
             </ul>
         </nav>
     </header>
-    <MinhasRotas />
+    
 </div>
   )
 }
